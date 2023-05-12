@@ -9,22 +9,22 @@ import img6 from "./../../../../assets/images/banner/6.jpg";
 const HomeBanner = () => {
   const imageText = (
     <div
-      className={`absolute h-full left-0 top-0 bottom-0 flex items-center bg-gradient-to-r from-[#151515] to-[rgba(21, 21, 21, 0)]`}
+      className={`absolute rounded-xl h-full left-0 top-0 bottom-0 flex items-center bg-gradient-to-r from-[#151515] to-[rgba(21, 21, 21, 0)]`}
     >
-      <div className="text-white space-y-7 w-1/3 pl-28 v">
-        <h2 className="text-6xl font-semibold">
+      <div className="text-white space-y-7 md:w-1/3 lg:pl-28 md:pl-20 pl-5 v w-4/5">
+        <h2 className="md:text-6xl font-semibold text-3xl">
           Affordable Price For Car Servicing
         </h2>
-        <p className="">
+        <p className="md:text-xs">
           There are many variations of passages of available, but the majority
           have suffered alteration in some form
         </p>
 
-        <div className="flex gap-5">
-          <button className="btn btn-outline text-white hover:bg-[#ff3811] hover:border-[#ff3811]">
+        <div className="flex md:flex-row flex-col gap-5">
+          <button className="btn btn-outline text-white hover:bg-[#ff3811] hover:border-white hover:text-white">
             Discover More
           </button>
-          <button className="btn btn-outline text-white hover:bg-[#ff3811] hover:border-[#ff3811]">
+          <button className="btn btn-outline text-white hover:bg-[#ff3811] hover:border-white hover:text-white">
             Latest Projects
           </button>
         </div>
@@ -40,13 +40,13 @@ const HomeBanner = () => {
         <div className="absolute flex justify-end gap-5 transform -translate-y-1/2 left-5 right-5 bottom-0">
           <a
             href="#slide6"
-            className="btn btn-outline text-white border-white btn-circle hover:bg-[#FF3811] hover:border-none"
+            className="btn btn-outline text-white border-white btn-circle hover:bg-[#FF3811]  hover:border-white hover:text-white"
           >
             ❮
           </a>
           <a
             href="#slide2"
-            className="btn btn-outline text-white border-white btn-circle hover:bg-[#FF3811] hover:border-none"
+            className="btn btn-outline text-white border-white btn-circle hover:bg-[#FF3811]  hover:border-white hover:text-white"
           >
             ❯
           </a>
@@ -58,13 +58,13 @@ const HomeBanner = () => {
         <div className="absolute flex justify-end gap-5 transform -translate-y-1/2 left-5 right-5 bottom-0">
           <a
             href="#slide1"
-            className="btn btn-outline text-white border-white btn-circle hover:bg-[#FF3811] hover:border-none"
+            className="btn btn-outline text-white border-white btn-circle hover:bg-[#FF3811]  hover:border-white hover:text-white"
           >
             ❮
           </a>
           <a
             href="#slide3"
-            className="btn btn-outline text-white border-white btn-circle hover:bg-[#FF3811] hover:border-none"
+            className="btn btn-outline text-white border-white btn-circle hover:bg-[#FF3811]  hover:border-white hover:text-white"
           >
             ❯
           </a>
@@ -76,13 +76,13 @@ const HomeBanner = () => {
         <div className="absolute flex justify-end gap-5 transform -translate-y-1/2 left-5 right-5 bottom-0">
           <a
             href="#slide2"
-            className="btn btn-outline text-white border-white btn-circle hover:bg-[#FF3811] hover:border-none"
+            className="btn btn-outline text-white border-white btn-circle hover:bg-[#FF3811]  hover:border-white hover:text-white"
           >
             ❮
           </a>
           <a
             href="#slide4"
-            className="btn btn-outline text-white border-white btn-circle hover:bg-[#FF3811] hover:border-none"
+            className="btn btn-outline text-white border-white btn-circle hover:bg-[#FF3811]  hover:border-white hover:text-white"
           >
             ❯
           </a>
@@ -94,13 +94,13 @@ const HomeBanner = () => {
         <div className="absolute flex justify-end gap-5 transform -translate-y-1/2 left-5 right-5 bottom-0">
           <a
             href="#slide3"
-            className="btn btn-outline text-white border-white btn-circle hover:bg-[#FF3811] hover:border-none"
+            className="btn btn-outline text-white border-white btn-circle hover:bg-[#FF3811]  hover:border-white hover:text-white"
           >
             ❮
           </a>
           <a
             href="#slide5"
-            className="btn btn-outline text-white border-white btn-circle hover:bg-[#FF3811] hover:border-none"
+            className="btn btn-outline text-white border-white btn-circle hover:bg-[#FF3811]  hover:border-white hover:text-white"
           >
             ❯
           </a>
@@ -112,13 +112,13 @@ const HomeBanner = () => {
         <div className="absolute flex justify-end gap-5 transform -translate-y-1/2 left-5 right-5 bottom-0">
           <a
             href="#slide4"
-            className="btn btn-outline text-white border-white btn-circle hover:bg-[#FF3811] hover:border-none"
+            className="btn btn-outline text-white border-white btn-circle hover:bg-[#FF3811]  hover:border-white hover:text-white"
           >
             ❮
           </a>
           <a
             href="#slide6"
-            className="btn btn-outline text-white border-white btn-circle hover:bg-[#FF3811] hover:border-none"
+            className="btn btn-outline text-white border-white btn-circle hover:bg-[#FF3811]  hover:border-white hover:text-white"
           >
             ❯
           </a>
@@ -130,13 +130,13 @@ const HomeBanner = () => {
         <div className="absolute flex justify-end gap-5 transform -translate-y-1/2 left-5 right-5 bottom-0">
           <a
             href="#slide5"
-            className="btn btn-outline text-white border-white btn-circle hover:bg-[#FF3811] hover:border-none"
+            className="btn btn-outline text-white border-white btn-circle hover:bg-[#FF3811]  hover:border-white hover:text-white"
           >
             ❮
           </a>
           <a
             href="#slide1"
-            className="btn btn-outline text-white border-white btn-circle hover:bg-[#FF3811] hover:border-none"
+            className="btn btn-outline text-white border-white btn-circle hover:bg-[#FF3811]  hover:border-white hover:text-white"
           >
             ❯
           </a>
