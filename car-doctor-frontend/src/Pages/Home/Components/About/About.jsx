@@ -4,7 +4,7 @@ import parts from "../../../../assets/images/about_us/parts.jpg";
 
 const About = () => {
   return (
-    <div className="hero min-h-screen bg-base-200  bg-[rgb(255,255,255)]">
+    <div className="hero min-h-screen bg-base-200  bg-white">
       <div className="hero-content flex-col lg:flex-row">
         <div className="w-1/2 relative p-0">
           <img src={person} className="w-4/5 rounded-lg shadow-2xl " />
@@ -14,7 +14,7 @@ const About = () => {
           />
         </div>
         <div className="w-1/2">
-          <p className="font-bold text-red-600 ">About Us</p>
+          <p className="font-bold text-[#ff3811] ">About Us</p>
           <h2 className="text-4xl font-semibold text-gray-800">
             We are qualified & of experience in this field
           </h2>
