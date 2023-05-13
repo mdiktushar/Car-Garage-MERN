@@ -7,4 +7,4 @@ VITE_MESSAGINGSENDERID = ""
 VITE_APPID = ""
 
 # Backend 
-ULR = 'http://localhost:5000/'
+VITE_ULR = 'http://localhost:5000/'
