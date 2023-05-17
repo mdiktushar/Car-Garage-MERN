@@ -47,8 +47,8 @@ const Checkout = () => {
   };
   return (
     <div className="text-center">
-      {/* <h2>Checkout {title}</h2> */}
-      <form onSubmit={handleCheckout} className="bg-white">
+      <h2 className={`text-4xl font-semibold text-center mt-20 mb-20`}>Checkout: {title}</h2>
+      <form onSubmit={handleCheckout} className="bg-white mb-20">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <div className="form-control">
             <label className="label">

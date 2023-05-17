@@ -30,7 +30,11 @@ const router = createBrowserRouter([
       },
       {
         path: `/checkout/:id`,
-        element: <Checkout />,
+        element: (
+          <PrivateRoute>
+            <Checkout />
+          </PrivateRoute>
+        ),
         loader: async ({ params }) =>
           await fetch(`http://localhost:5000/service/${params.id}`),
       },
